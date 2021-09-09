@@ -1,5 +1,5 @@
 using System;
-using System.Collections.Generic;
+using EnumComposit.entities;
 
 namespace EnumComposit.entities
 {
@@ -7,17 +7,23 @@ namespace EnumComposit.entities
     {
         public int Quantity { get; set; }
         public double Price { get; set; }
-        public List<Product> Products { get; set; } = new List<Product>();
+        public Product Product { get; set; }
 
-        public void AddItem(Product product) {
-            Products.Add(product);
+        public OrderItem() {}
+        public OrderItem(int quantity, double price, Product product) {
+            Quantity = quantity;
+            Price = price;
+            Product = product;
         }
-        public void RemoveItem(Product product) {
-            Products.Remove(product);
-        }
-        public double Subtotal()
-        {
+        
+        public double Subtotal() {
             return Quantity * Price;
+        }
+
+        public override string ToString()
+        {
+            return Product.Name + ", $" + Price + ", Quantity: " +
+            Quantity + ", Subtotal: $" + Subtotal();
         }
     }
 }

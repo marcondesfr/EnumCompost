@@ -1,5 +1,4 @@
 using System;
-using EnumComposit.entities.Enums;
 
 namespace EnumComposit.entities
 {
@@ -8,7 +7,6 @@ namespace EnumComposit.entities
         public string Name { get; set; }
         public string Email { get; set; }
         public DateTime Birthday { get; set; }
-        public OderStatus Status { get; set; }
 
         public Client() {}
 

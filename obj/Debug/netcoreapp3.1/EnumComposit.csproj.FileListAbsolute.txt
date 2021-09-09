@@ -1,0 +1,11 @@
+/home/mascou/EnumComposit/bin/Debug/netcoreapp3.1/EnumComposit
+/home/mascou/EnumComposit/bin/Debug/netcoreapp3.1/EnumComposit.deps.json
+/home/mascou/EnumComposit/bin/Debug/netcoreapp3.1/EnumComposit.runtimeconfig.json
+/home/mascou/EnumComposit/bin/Debug/netcoreapp3.1/EnumComposit.runtimeconfig.dev.json
+/home/mascou/EnumComposit/bin/Debug/netcoreapp3.1/EnumComposit.dll
+/home/mascou/EnumComposit/bin/Debug/netcoreapp3.1/EnumComposit.pdb
+/home/mascou/EnumComposit/obj/Debug/netcoreapp3.1/EnumComposit.csprojAssemblyReference.cache
+/home/mascou/EnumComposit/obj/Debug/netcoreapp3.1/EnumComposit.AssemblyInfoInputs.cache
+/home/mascou/EnumComposit/obj/Debug/netcoreapp3.1/EnumComposit.AssemblyInfo.cs
+/home/mascou/EnumComposit/obj/Debug/netcoreapp3.1/EnumComposit.dll
+/home/mascou/EnumComposit/obj/Debug/netcoreapp3.1/EnumComposit.pdb

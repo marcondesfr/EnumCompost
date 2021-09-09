@@ -8,7 +8,7 @@ namespace EnumComposit
     {
         static void Main(string[] args)
         {   
-            Client c;
+            Client Client;
             //Enter client data
             System.Console.WriteLine("Enter cliente data:");
             System.Console.Write("Name: ");
@@ -20,8 +20,8 @@ namespace EnumComposit
             //Enter status order
             System.Console.WriteLine("Enter order data:");
             System.Console.Write("Status: ");
-            int Status = int.Parse(Console.ReadLine());
-            c = new Client(Name, Email, Birth);
+            Enum Status = Enum.Parse<OderStatus>(Console.ReadLine());
+            Client = new Client(Name, Email, Birth);
             
 
         }
