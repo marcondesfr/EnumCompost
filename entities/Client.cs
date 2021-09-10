@@ -15,5 +15,14 @@ namespace EnumComposit.entities
             Email = email;
             Birthday = birthday;
         }
+
+        public override string ToString()
+        {
+            return Name 
+                + ", (" 
+                + Birthday.ToString("dd/MM/yyyy") 
+                + ") - " 
+                + Email;
+        }
     }
 }

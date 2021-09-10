@@ -1,6 +1,3 @@
-using System;
-using EnumComposit.entities;
-
 namespace EnumComposit.entities
 {
     public class OrderItem
