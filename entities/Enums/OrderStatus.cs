@@ -1,6 +1,6 @@
 namespace EnumComposit.entities.Enums
 {
-    public enum OderStatus : int
+    public enum OrderStatus : int
     {
         Pending_Payment,
         Processing = 1,

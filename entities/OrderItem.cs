@@ -7,20 +7,20 @@ namespace EnumComposit.entities
         public Product Product { get; set; }
 
         public OrderItem() {}
+
         public OrderItem(int quantity, double price, Product product) {
             Quantity = quantity;
             Price = price;
             Product = product;
         }
-        
-        public double Subtotal() {
+
+        public double SubTotal() {
             return Quantity * Price;
         }
 
         public override string ToString()
         {
-            return Product.Name + ", $" + Price + ", Quantity: " +
-            Quantity + ", Subtotal: $" + Subtotal();
+            return Product.Name + ", $" + Product.Price + ", Quantity: " + Quantity + ", Subtotal: $" + SubTotal().ToString("F2");
         }
     }
 }
